@@ -1,0 +1,40 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'e:\\tools\\nodejs\\\\node.exe',
+1 verbose cli   'e:\\tools\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'hubot',
+1 verbose cli   'hubot-scripts',
+1 verbose cli   'hubot-diagnostics',
+1 verbose cli   'hubot-help',
+1 verbose cli   'hubot-heroku-keepalive',
+1 verbose cli   'hubot-google-images',
+1 verbose cli   'hubot-google-translate',
+1 verbose cli   'hubot-pugme',
+1 verbose cli   'hubot-maps',
+1 verbose cli   'hubot-redis-brain',
+1 verbose cli   'hubot-rules',
+1 verbose cli   'hubot-shipit',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink e:\tools\nodejs\\node.exe
+5 error Error: Invalid name: "clark's hubot"
+5 error     at ensureValidName (e:\tools\nodejs\node_modules\npm\node_modules\read-package-json\node_modules\normalize-package-data\lib\fixer.js:315:15)
+5 error     at Object.module.exports.fixNameField (e:\tools\nodejs\node_modules\npm\node_modules\read-package-json\node_modules\normalize-package-data\lib\fixer.js:204:5)
+5 error     at e:\tools\nodejs\node_modules\npm\node_modules\read-package-json\node_modules\normalize-package-data\lib\normalize.js:30:38
+5 error     at Array.forEach (native)
+5 error     at normalize (e:\tools\nodejs\node_modules\npm\node_modules\read-package-json\node_modules\normalize-package-data\lib\normalize.js:29:15)
+5 error     at final (e:\tools\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:342:33)
+5 error     at then (e:\tools\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:126:33)
+5 error     at e:\tools\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:266:40
+5 error     at evalmachine.<anonymous>:271:14
+5 error     at e:\tools\nodejs\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:102:5
+6 error If you need help, you may report this *entire* log,
+6 error including the npm and node versions, at:
+6 error     <http://github.com/npm/npm/issues>
+7 error System Windows_NT 6.1.7601
+8 error command "e:\\tools\\nodejs\\\\node.exe" "e:\\tools\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "hubot" "hubot-scripts" "hubot-diagnostics" "hubot-help" "hubot-heroku-keepalive" "hubot-google-images" "hubot-google-translate" "hubot-pugme" "hubot-maps" "hubot-redis-brain" "hubot-rules" "hubot-shipit" "--save"
+9 error cwd e:\myhubot
+10 error node -v v0.10.33
+11 error npm -v 1.4.28
+12 verbose exit [ 1, true ]
